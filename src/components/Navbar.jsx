@@ -1,5 +1,4 @@
 "use client";
-import Link from "next/link";
 
 export default function Navbar() {
   return (
@@ -11,20 +10,20 @@ export default function Navbar() {
         </h1>
 
         <div className="hidden md:flex gap-6 items-center">
-          <Link href="/">Home</Link>
-          <Link href="/programs">Programs</Link>
-          <Link href="/admission">Admission</Link>
-          <Link href="/notice">Notice</Link>
-          <Link href="/result">Result</Link>
-          <Link href="/about">About</Link>
-          <Link href="/contact">Contact</Link>
+          <a href="/">Home</a>
+          <a href="/programs">Programs</a>
+          <a href="/admission">Admission</a>
+          <a href="/notice">Notice</a>
+          <a href="/result">Result</a>
+          <a href="/about">About</a>
+          <a href="/contact">Contact</a>
 
-          <Link
+          <a
             href="/apply"
             className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700"
           >
             Apply Now
-          </Link>
+          </a>
         </div>
       </div>
     </nav>

@@ -1,4 +1,3 @@
-import Image from "next/image";
 
 export default function Hero() {
   return (
@@ -25,7 +24,7 @@ export default function Hero() {
           </div>
         </div>
 
-        <Image
+        <img
           src="/campus.jpg"
           width={500}
           height={400}
